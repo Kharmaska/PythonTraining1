@@ -12,3 +12,23 @@ characters = [
     "le chat potté", 
     "Kirikou"
 ]
+user_answer = input('Tapez entrée pour découvrir une autre citation ou B pour quitter le programme.')
+
+# Show random quote
+def get_random_quote(my_list):
+	item = my_list[0]
+	return item
+
+print (get_random_quote(my_list))
+
+
+if user_answer == "B":
+    pass
+elif user_answer == "C":
+    print("C pas la bonne réponse ! Et G pas d’humour, je C...")
+else:
+	pass
+    # show another quote
+
+def show_random_quote():
+	pass
