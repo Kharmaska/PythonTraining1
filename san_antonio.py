@@ -11,3 +11,6 @@ user_answer = "A"
 
 while user_answer != "B":
     print(get_random_item_in(quotes))
+
+for quote in quotes:
+    quote.capitalize()
